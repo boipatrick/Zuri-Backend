@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Data Form</title>
+</head>
+<body>
+<h2>Information Form</h2>
+<form action="submit.php" method="post">
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+
+    <label for="other_names">Other Names:</label><br>
+    <input type="text" id="other_names" name="other_names"><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="female">Other</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
